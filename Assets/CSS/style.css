@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to bottom right,rgb(123, 218, 94),rgb(115, 178, 226));
+    background-repeat: no-repeat;
+  }
+  
+  
+  #main{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 5px 10px 30px rgba(92, 83, 83, 0.2);
+    z-index: 1;
+    margin-right: 60%;
+  }
+  
+  .logo img{
+    height: 145px;
+    width: 160px;
+    margin-top: -10%;
+  
+    position: relative;
+    
+  }
+  
+  @keyframes animate{
+    0%{left:0px;}
+    50%{left:300px;}
+    100%{left:0px;}
+  }
+  
+  .menu{
+    list-style: none;
+    display: flex;
+    margin-left: 60%;
+  }
+  
+  .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .social{
+    list-style: none;
+    display: flex;
+   
+   
+    margin-left: 100%;
+    font-weight: bold;
+  }
+  
+  .social li{
+    display: inline;
+    padding: 0.5rem;
+  }
+  
+  .name{
+    /* font-weight: bold; */
+
+  }
+  
+  .github img{
+    height: 55px;
+  }
+  
+  .linkedin img{
+    height: 70px;
+  }
+  
+  .creator{
+    margin-left: 0;
+  }
+  
+  .footer{
+    font-family: 'Balthazar', serif;
+    list-style: none;
+    display: flex;
+    height: 40px;
+    
+    margin-top: 5%;
+    
+    margin-bottom: 3rem;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  .contact{
+  
+     text-align: center!important; 
+    
+  }
+  
+  .image img{
+    height: 300px;
+    width: 600px;
+    position: relative;
+    
+  }
+  @keyframes animez{
+    0%{left:0px;top:0px;}
+    25%{left:175px;top:0px;}
+    50%{left:175px;top:200px;}
+    75%{left:-175px;top:200px;}
+    85%{left:-175px;top:0px;}
+    100%{left:0px;top:0px;}
+  }
+  
+  .main-content{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .line{
+    font-family: 'Serif', cursive;
+    font-size: 35px;
+  }
+  
+  .heading{
+    font-family: 'Balthazar', serif;
+    
+    font-size: 50px;
+  }
+  
+  .start{
+    font-family:'Roboto', sans-serif;
+    background-color: rgb(25, 187, 216);
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid rgb(43, 42, 44);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(224, 195, 195, 0.2);
+  }
+  
+  .start:hover{
+    background-color: whitesmoke;
+    color: rgb(25, 187, 216);
+    border: 2px solid rgb(63, 59, 59);
+    cursor: pointer;
+  }
+  
+  .menu li a:hover{
+    background-color: rgb(25, 187, 216);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .github img:hover{
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  .linkedin img:hover{
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  .line2{
+    display: flex;
+    
+font-family: 'Prata', serif;
+    font-size: 30px;
+  }

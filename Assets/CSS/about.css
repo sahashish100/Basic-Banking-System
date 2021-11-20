@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to bottom right,rgb(243, 207, 75),rgb(7, 221, 57), rgb(102, 223, 66), rgb(243, 207, 75));
+    background-repeat: no-repeat;
+  }
+  
+  
+  #main{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+  }
+  
+  .nav{
+    display: flex;
+    font-family:'Roboto', sans-serif;
+    justify-content: space-around;
+    font-size: 25px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 5px 10px 30px rgba(73, 64, 64, 0.2);
+    z-index: 1;
+    margin-right: 60%;
+  }
+  
+  
+  .logo img{
+    height: 145px;
+    width: 160px;
+    margin-top: -10%;
+  }
+  
+  .menu{
+    list-style: none;
+    display: flex;
+    margin-left: 60%;
+  }
+  
+  .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+  .image img{
+    width:700px ;
+    height: 600px;
+    
+    box-shadow: none;
+  }
+  
+  .main-content{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+  }
+  
+  .line{
+    font-family: 'Reggae One', cursive;
+    font-size: 1rem;
+    margin-left: 2%;
+  }
+  
+  .heading{
+    font-family: 'Girassol', cursive;
+    font-size: 2rem;
+    margin-left: 2%;
+  }
+  
+  .start{
+    font-family:'Roboto', sans-serif;
+    background-color: rgb(25, 187, 216);
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 5px;
+    border: 2px solid rgb(43, 42, 44);
+    margin-left: 10%;
+  }
+  
+  .start:hover{
+    background-color: whitesmoke;
+    color:  rgb(25, 187, 216);
+    border: 2px solid rgb(43, 42, 44);
+    cursor: pointer;
+  }
+  
+  .menu li a:hover{
+    background-color: rgb(27, 190, 219);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  
+  .line2{
+    display: flex;
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+  }
+  

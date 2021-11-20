@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+     
+    background-image: linear-gradient(to bottom right,rgb(235, 147, 198),rgb(235, 148, 203));
+  }
+  
+  
+  #main{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+    margin-right: 60%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 5px 10px 30px rgba(37, 36, 36, 0.2);
+    z-index: 1;
+    margin-top: 0%;
+  }
+  
+  .logo img{
+    height: 145px;
+    width: 160px;
+    margin-top: -20%;
+    
+  }
+  
+  
+  .menu{
+    list-style: none;
+    display: flex;
+    margin-left: 60%;
+  }
+  
+  
+  .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+  }
+  
+  .menu li a:hover{
+    background-color: rgb(21, 235, 250);
+  }
+  
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .my-info{
+    justify-content: space-around;
+    padding: 0;
+    text-align: center!important;
+    margin-bottom: 1rem;
+   
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: 400;
+    line-height: 1.2px;
+  }
+  
+  .btn{
+    font-family: 'Itim', cursive;
+    background-color: rgb(153, 137, 200);
+    color: rgb(144, 71, 124);
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid rgb(105, 13, 180);
+    box-shadow: 0 0 20px rgba(90, 86, 86, 0.2);
+  }
+  
+  .btn:hover{
+    background-color: rgb(21, 235, 250);
+  }
+  
+  .table{
+    border-collapse: collapse;
+      margin: 20px auto 0 auto;
+      font-size: 0.9em;
+      min-width: 400px;
+      border-radius: 5px 5px 0 0;
+      overflow: hidden;
+      padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  }
+  
+  .table thead tr{
+    background-color: rgb(240, 9, 9);
+      color: rgb(51, 5, 75);
+      text-align: left;
+      font-weight: bold;
+  }
+  
+  .table th,
+  .table td{
+    padding: 5px 70px;
+  }
+  
+  .table tbody tr{
+    border-bottom: 1px solid rgb(153, 21, 21);
+  }
+  
+  .table tbody tr:nth-of-type(odd){
+    background-color: rgb(113, 214, 123);
+  }
+  
+  .table tr:nth-of-type(even){
+    background-color: rgb(148, 70, 135);
+  }
+  
+  tr{
+    cursor: pointer;
+  }
+  
+  .table tbody tr:hover{
+    background-color: rgb(6, 6, 250);
+  }
